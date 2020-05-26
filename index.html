@@ -43,13 +43,24 @@
     <br/> <br/> 
  
 
-<div class="container mt-5">
+<div class="container">
     <div class="row">
 <!--        <div class="col-lg-4"></div>-->
         
-        <div class="col-lg-4 col-9 ml-auto mr-auto" id="loginForm">
+        <div class="col-lg-7 col-12 ml-auto mr-auto">
+        <div class="col-lg-7 col-9 mr-auto ml-auto" style="color:white; background-color: #306FA0; height: 60px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+            <div class="text-center pt-3" style="font-size: 17px;">
+                <p> STUDENT LOG IN </p>
+                    
+            </div>
+                        
+        </div>
+        
+        <div class="col-lg-7 col-9 ml-auto mr-auto" id="loginForm"
+             style="border: 2px solid rgba(48, 111, 160, 0.6); border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;">
             
-            <form method="post">
+            <form method="post" action="phpIncludes/login.inc.php">
             <div class="form-group"> <!-- style="border:3px solid rgba(48, 111, 160, 0.4)" -->
                 
                                 
@@ -115,7 +126,8 @@
                 </div>
             </div>
             </form>
-        </div>        
+        </div>  
+        </div>
 <!--        <div class="col-lg-4"></div>-->
     </div>
 </div> 
