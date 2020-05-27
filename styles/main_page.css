@@ -151,8 +151,7 @@ a[data-toggle="collapse"] {
 */
 /*    margin-top: 20px;*/
 
-
-@media (max-width:610px){
+@media (max-height:615px){
     #footr{
         background-color: #306FA0; 
         color: white; 
@@ -160,12 +159,10 @@ a[data-toggle="collapse"] {
     /*    bottom: 0; */
         width:100%; 
         font-size:15px;
-        
     }
-    
 }
 
-@media (min-width:615px){
+@media (min-height:616px){
     #footr{
         clear: both;
         border: 1px groove #aaaaaa;
@@ -189,16 +186,8 @@ a[data-toggle="collapse"] {
     /*    bottom: 0; */
         width:100%; 
         font-size:15px;
-
-/*
-        position: relative;
-        margin-top: -450px;
-        margin-bottom: 0px;
-        background-color: #000000; 
-*/
     }
 }
-
 
 
 /*
