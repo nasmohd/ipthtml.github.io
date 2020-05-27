@@ -152,19 +152,6 @@ a[data-toggle="collapse"] {
 /*    margin-top: 20px;*/
 }
 
-@media (min-width:1200px){
-    #footr{
-/*
-        position: relative;
-        margin-top: -450px;
-        margin-bottom: 0px;
-        background-color: #000000; 
-*/
-    }
-}
-
-
-
 /*
 .dropdown-toggle::after {
     display: block;
